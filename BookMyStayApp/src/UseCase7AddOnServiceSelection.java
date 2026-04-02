@@ -26,11 +26,16 @@ class Service {
 }
 
 // Class representing a Reservation
-class  {
-    private final String reservationId;
-    private final String guestName;
+class Reservation1 {
+    private String reservationId;
+    private String guestName;
 
-    public Reservation(String reservationId, String guestName) {
+    public void Reservation(String reservationId, String guestName) {
+        this.reservationId = reservationId;
+        this.guestName = guestName;
+    }
+
+    Reservation1(String reservationId, String guestName) {
         this.reservationId = reservationId;
         this.guestName = guestName;
     }

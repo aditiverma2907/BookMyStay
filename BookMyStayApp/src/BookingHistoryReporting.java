@@ -1,13 +1,13 @@
 import java.util.*;
 
 // Reservation class
-class Reservation {
+class Reservation1 {
     private String reservationId;
     private String guestName;
     private String roomType;
     private double totalAmount;
 
-    public Reservation(String reservationId, String guestName, String roomType, double totalAmount) {
+    public void Reservation(String reservationId, String guestName, String roomType, double totalAmount) {
         this.reservationId = reservationId;
         this.guestName = guestName;
         this.roomType = roomType;
