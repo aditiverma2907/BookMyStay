@@ -26,7 +26,7 @@ class Service {
 }
 
 // Class representing a Reservation
-class Reservation {
+class  {
     private final String reservationId;
     private final String guestName;
 
